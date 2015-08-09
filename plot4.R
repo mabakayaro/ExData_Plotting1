@@ -22,7 +22,7 @@ with (hpc, {
         plot(Dat, Sub_metering_1, type = "l",ylab = "Energy sub metering", xlab = "", col = "black" )
         lines(Dat, hpc$Sub_metering_2, col = "red")
         lines(Dat, hpc$Sub_metering_3, col = "blue")
-        legend("topright", lty = 1, col =c("black", "red", "blue"), legend = c("Sub_meter_1","Sub_meter_2","Sub_meter_3"), bty = "n")
+        legend("topright", lty = 1, col =c("black", "red", "blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), bty = "n")
         plot(Dat, Global_reactive_power, type = "l",ylab = "Global_reactive_power", xlab = "datetime" )
 })
 
